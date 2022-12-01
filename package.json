@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "env-cmd nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "Kam Lasater <kam.lasater@cyclic.sh>",
   "license": "ISC",
   "dependencies": {
+    "env-cmd": "^10.1.0",
     "fastify": "^4.10.2",
     "graphql": "^16.6.0",
     "mercurius": "^11.3.0"
